@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2022-02-19" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="3.1.3100" locale="fr_FR">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="187" order="0"/>
+        <field id="tpd4" name="Date de début" width="45" order="1"/>
+        <field id="tpd5" name="Date de fin" width="64" order="2"/>
+        <option id="color.recent">
+            <![CDATA[#0099ff #66ff66 #0033ff #ff0066]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="13" name="Conception" color="#0033ff" meeting="false" start="2022-02-21" duration="15" complete="0" thirdDate="2022-02-21" thirdDate-constraint="0" expand="true">
+            <task id="14" name="Dictionnaire de données" color="#8cb6ce" meeting="false" start="2022-02-21" duration="3" complete="0" thirdDate="2022-02-18" thirdDate-constraint="0" expand="true"/>
+            <task id="16" name="Realisation du MCD" color="#8cb6ce" meeting="false" start="2022-02-21" duration="15" complete="0" thirdDate="2022-02-21" thirdDate-constraint="0" expand="true"/>
+            <task id="17" name="Cahier des charges" color="#8cb6ce" meeting="false" start="2022-02-23" duration="2" complete="0" thirdDate="2022-02-18" thirdDate-constraint="0" expand="true"/>
+            <task id="18" name="Diagramme de flux" color="#8cb6ce" meeting="false" start="2022-03-02" duration="1" complete="0" thirdDate="2022-02-18" thirdDate-constraint="0" expand="true"/>
+            <task id="19" name="Use Cases" color="#8cb6ce" meeting="false" start="2022-02-22" duration="1" complete="0" thirdDate="2022-02-18" thirdDate-constraint="0" expand="true"/>
+            <task id="21" name="Diagramme de classes" color="#8cb6ce" meeting="false" start="2022-03-07" duration="3" complete="0" thirdDate="2022-02-18" thirdDate-constraint="0" expand="true"/>
+            <task id="22" name="Analyse fonctionelle" color="#8cb6ce" meeting="false" start="2022-02-28" duration="2" complete="0" thirdDate="2022-02-18" thirdDate-constraint="0" expand="true"/>
+            <task id="23" name="Specifications détaillées" color="#8cb6ce" meeting="false" start="2022-03-02" duration="2" complete="0" thirdDate="2022-02-18" thirdDate-constraint="0" expand="true"/>
+            <task id="24" name="Maquettes noir et blanc" color="#8cb6ce" meeting="false" start="2022-02-22" duration="3" complete="0" thirdDate="2022-02-18" thirdDate-constraint="0" expand="true"/>
+            <task id="25" name="Maquettes Couleurs" color="#8cb6ce" meeting="false" start="2022-02-25" duration="2" complete="0" thirdDate="2022-02-18" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="26" name="Développement" color="#66ff66" meeting="false" start="2022-03-14" duration="36" complete="0" thirdDate="2022-02-18" thirdDate-constraint="0" expand="true">
+            <task id="30" name="Script Sql" color="#8cb6ce" meeting="false" start="2022-03-14" duration="1" complete="0" thirdDate="2022-02-21" thirdDate-constraint="0" expand="true"/>
+            <task id="32" name="Génération du projet" color="#8cb6ce" meeting="false" start="2022-03-14" duration="1" complete="0" thirdDate="2022-02-21" thirdDate-constraint="0" expand="true"/>
+            <task id="34" name="Creation des entités" color="#8cb6ce" meeting="false" start="2022-03-15" duration="2" complete="0" thirdDate="2022-02-21" thirdDate-constraint="0" expand="true"/>
+            <task id="37" name="Developpement Partie Factures" color="#8cb6ce" meeting="false" start="2022-04-06" duration="15" complete="0" thirdDate="2022-02-21" thirdDate-constraint="0" expand="true"/>
+            <task id="38" name="Developpement Partie Devis" color="#8cb6ce" meeting="false" start="2022-04-06" duration="15" complete="0" thirdDate="2022-02-21" thirdDate-constraint="0" expand="true"/>
+            <task id="39" name="Développement Connexion" color="#8cb6ce" meeting="false" start="2022-03-17" duration="4" complete="0" thirdDate="2022-02-21" thirdDate-constraint="0" expand="true"/>
+            <task id="41" name="Développement Inscription" color="#8cb6ce" meeting="false" start="2022-03-17" duration="4" complete="0" thirdDate="2022-02-21" thirdDate-constraint="0" expand="true"/>
+            <task id="42" name="Développement Partie Paramètres" color="#8cb6ce" meeting="false" start="2022-03-23" duration="10" complete="0" thirdDate="2022-02-21" thirdDate-constraint="0" expand="true"/>
+            <task id="51" name="Déploiement" color="#0099ff" meeting="false" start="2022-04-27" duration="4" complete="0" thirdDate="2022-03-30" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>

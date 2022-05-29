@@ -1,0 +1,97 @@
+Faut -il séparer complément d'adresse et n° de telephone de la table clients ? 
+Pour avoir plusieurs tel et comp. adresses par clients.
+
+Les mots clés pour le clients ne sont pas pris en compte ? 
+
+Rajouter un Booléen ? Pour différencier un pro d'un particulier.
+Plutot que de faire des recherches en base on peut savoir directement s'il a une ou plusieurs entreprise ou non .
+
+Il faut différencier le numéro de siret et siren ? 
+
+
+Type d'entreprise => Faut-il en mettre un par défaut pour les particuliers ? Ou on met a null en BDD
+
+
+
+
+================================
+
+DANS DEVIS, IL Y A SUREMENT PLEINS DE CHAMPS QUI SOTN DES PARAMETRES
+
+
+
+================================================
+
+TEXTE INTRO , CONCLUSION , DUREE VALIDITE PIED DE PAGE CVG ..  => Devis ?
+
+Débours, avoirs et accompte, comment ça se gère ?
+
+=========================================================================
+
+PROCEDURE STOCKEE POUR CALCULER LE CA POUR CHAQUE TRIMESTRE ?
+
+AU NIVEAU DES ROLES ADMIN A ACCES A TOUT ??
+utilisateurs avec 2 entreprises, les seuils sont les mêmes ? par entreprise ou SIREN ? 
+
+=========================================================================
+L'utilisateur peut - il créer une entreprise et un client pour établir un devis ou une facture ? Modifier ? supprimer ?
+L'utilisateur peut il relancer une facture ou seulement l'admin entreprise ?
+
+=======================================================================================
+nb aprenants et apprenants total inutile => lignes factures / lignes devis ???
+
+
+
+
+=====================================================================================
+
+Doit-on stocker le nombres de participant dans les lignes de factures ?
+(Comme vous ne saviez pas combien vous en avez avant de faire la prestation)
+
+
+LES CGV on les stock mais, où sont-il obligatoires ?
+A faire apparaitre dans les devis
+===
+
+Groupes c'est pourquoi faire déjà ?
+dans la zone de libelle, a titre informationnel
+===
+
+Date de validité sur un avoir ou pas ?
+Normalement NON
+===
+
+TVA sur Avoir ??
+OUI
+===
+
+Conditions de règlement, mode de paiement, compte bancaire sur l'avoir ?
+tout de la facture on les prends 
+===
+Pourquoi pas utiliser un table ligne comptable qui serait toutes les lignes d'avoirs facture d'acompte
+Non
+===
+Faut-il une trace des paiements et paiements partiels des factures et factures d'acompte ?
+non
+===
+Les logs a quoi servent-il et pour qui ? 
+
+
+===
+Pour la partie TVA, on avait dit de faire une facture sans TVA et une avec TVA séparée ???
+
+
+===
+ça veut dire quoi ??? 
+"dans la partie facturation s'il y a devis on commence par le devis ensuite on trouve facture provisoire, envoyée, relancée, encaissée, rapprochée, archivée."
+
+
+
+
+
+
+
+
+
+
+
